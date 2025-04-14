@@ -1,0 +1,116 @@
+* {
+    font-family: Georgia, Arial, "Times New Roman";
+}
+
+.title {
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
+}
+
+#home {
+    text-align: center;
+    background-color: lightblue;
+    font-size: 60px;
+    height: 50px;
+    width: 790px;
+    padding: 50px;
+    margin: 40px auto;
+    border-radius: 20px;
+}
+
+#recipie-home {
+    text-align: center;
+    background-color: lightblue;
+    font-size: 60px;
+    height: 50px;
+    width: 500px;
+    padding: 50px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.hot {
+    color: red;
+}
+
+.small {
+    font-size:10px;
+}
+
+#sub {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.button {
+    display: inline-block;
+    height: 120px;
+    width: 270px;
+    font-size: 30px;
+    color: white;
+    text-shadow: -1px -1px 0 black;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+#pizza {
+    background-image: url(images/pizza.jpg);
+}
+
+#guac {
+    background-image: url(images/guacamole.jpg);
+}
+
+#egg {
+    background-image: url(images/egg-sandwich.jpg);
+}
+
+.center{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#home-button{
+    display: block;
+    margin: auto;
+    height: 30px;
+    width: 75px;
+    background-color:lightgrey;
+    border-radius: 10px;
+    font-size: 15px;
+    color: darkblue;
+}
+
+.sub-title{
+    display: block;
+    Height: 25px;
+    width: 600px;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.text{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+.ingredients{
+    display: inline-block;
+    width: 300px;
+}
+
+.group{
+    display: block;
+    width: 280px;
+}
